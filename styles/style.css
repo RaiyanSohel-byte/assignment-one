@@ -81,7 +81,7 @@ button:hover{
 /* action styles */
 .action-container{
     display:flex;
-    margin:220px 180px;
+    margin:120px auto;
     gap:220px;
     width:1140px;
     height:330px;
@@ -116,4 +116,42 @@ button:hover{
     width:400px;
     height:330px;
     border-radius:48px;
+}
+/* productive user style */
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    width:1140px;
+    height:310px;
+    margin:120px auto;
+    border-radius:24px;
+}
+.productive-user-title{
+    text-align: center;
+    font-weight:bold;
+    font-size:38px;
+    padding-top:50px;
+    margin-top:120px;
+   
+}
+.productive-user-number{
+    display:flex;
+    justify-content: space-around;
+    gap:150px;
+    font-size:50px;
+    font-weight: bold;
+    margin-top:50px;
+    padding-left:150px;
+    padding-right:150px;
+   
+    color:rgba(78, 71, 255, 1);
+   
+}
+.productive-user-sub-title{
+    display:flex;
+    justify-content:space-evenly;
+    
+    font-size:20px;
+    font-weight:400;
+    color:rgba(0, 0, 0, 0.5);
+    margin:5px auto;
 }
