@@ -75,4 +75,45 @@
 button:hover{
     background-color: rgba(78, 71, 255, .5);
     cursor:pointer;
+    
+}
+
+/* action styles */
+.action-container{
+    display:flex;
+    margin:220px 180px;
+    gap:220px;
+    width:1140px;
+    height:330px;
+}
+.action-text{
+    align-items:center;
+    margin-top:70px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight:bold;
+}
+.action-sub-title{
+    font-size: 24px;
+    font-weight:400;
+    color:rgba(37, 36, 50, 0.5);
+    margin-top:20px;
+}
+.action-btn{
+    width:235px;
+    height:48px;
+    background-color: rgba(78, 71, 255, 1);
+    border-style: none;
+    color:white;
+    margin-top:23px;
+    border-radius:10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding:12px 36px;
+}
+.action-photo{
+    width:400px;
+    height:330px;
+    border-radius:48px;
 }
