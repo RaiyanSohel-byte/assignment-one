@@ -356,9 +356,10 @@ border-radius:10px;
     font-size:15px;
     
 }
-.footer-ending:hover{
-    cursor:pointer;
-}
+
 .home{
     font-weight:200px;
+    text-decoration: none;
+    color:rgba(137, 135, 161, 1);
+
 }
