@@ -356,6 +356,9 @@ border-radius:10px;
     font-size:15px;
     
 }
+.footer-ending:hover{
+    cursor:pointer;
+}
 .home{
     font-weight:200px;
 }
