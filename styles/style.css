@@ -155,3 +155,50 @@ button:hover{
     color:rgba(0, 0, 0, 0.5);
     margin:5px auto;
 }
+/* review section style */
+.review-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.review-card{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding-top:50px;
+    
+}
+.review-card-text1,.review-card-text2,.review-card-text3{
+    
+    border:2px solid rgba(242, 237, 237, 1);
+    border-radius:14px; 
+    padding:24px;
+    
+    width:350px;  
+}
+.card-title{
+    font-size:24px;
+    font-weight: 700;
+    padding-top:25px;
+}
+.card-sub-title{
+    font-size: 16px;
+    font-weight:400;
+    padding-top:8px;
+}
+.profile{
+    display:flex;
+    gap:12px;
+    padding-top:24px;
+}
+.photo{
+    border-radius: 50%;
+}
+.name{
+    font-size: 16px;
+    color:rgb(120, 120, 120);
+}
+.date{
+    font-size:16px;
+    color:rgb(210, 210, 210);
+}
