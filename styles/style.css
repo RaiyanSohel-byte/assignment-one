@@ -1,6 +1,7 @@
 /* universal */
 *{
     margin:0;
+   
 }
 /* fonts */
 
@@ -174,7 +175,8 @@ button:hover{
     border-radius:14px; 
     padding:24px;
     
-    width:350px;  
+    width:350px;
+    margin-bottom:140px;  
 }
 .card-title{
     font-size:24px;
@@ -201,4 +203,54 @@ button:hover{
 .date{
     font-size:16px;
     color:rgb(210, 210, 210);
+}
+/* start free section style */
+.start-free-container{
+  background-color:rgba(255, 255, 255, 1);
+  width:1140px;
+  height:600px;
+  margin:auto;
+  border:2px solid rgba(242, 237, 237, 1);
+  padding-top:70px;
+  border-radius:14px;
+}
+.start-free-text{
+    text-align: center;
+}
+.start-free-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom:20px;
+}
+.start-free-sub-title{
+    font-size:16px;
+    font-weight: 300;
+    color:rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+.start-free-btn{
+    padding-top:14px;
+    height:48px;
+    width:195px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(78, 71, 255, 1);
+    color:white;
+    border-style: none;
+    border-radius:10px;
+    padding-bottom:20px;
+    
+}
+.start-free-photo{
+
+    margin:20px auto;
+    border-radius:48px;
+    height:450px;
+    width:840px;
+}
+.free-photo{
+    border-radius:48px;
+   
+       
+
 }
